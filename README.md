@@ -1,25 +1,42 @@
-This project is a Machine Learning based web application that predicts student performance based on various academic and personal factors such as study hours, attendance, and extracurricular activities.
+# 🎓 Student Performance Prediction App  
 
-Built with Python, Scikit-learn, and Streamlit, the app allows users to input student details and get instant predictions on whether the student is likely to pass or fail (or predict their score, depending on the trained model).
+This project is a **Machine Learning based web application** that predicts student performance based on various academic and personal factors such as study hours, attendance, and extracurricular activities.  
 
-🚀 Features
+Built with **Python, Scikit-learn, and Streamlit**, the app allows users to input student details and get instant predictions on whether the student is likely to **pass or fail** (or predict their score, depending on the trained model).  
 
-📊 Predict student performance using ML models
+---
 
-📝 Simple and interactive Streamlit UI
+## 🚀 Features
+- 📊 Predict student performance using ML models  
+- 📝 Simple and interactive **Streamlit UI**  
+- 🔧 Preprocessing with Scikit-learn (scaling, encoding, etc.)  
+- 💾 Model saved using Joblib/Pickle for real-time prediction  
+- ☁️ Easy deployment on Streamlit Cloud or Heroku  
 
-🔧 Preprocessing with Scikit-learn (scaling, encoding, etc.)
+---
 
-💾 Model saved using Joblib/Pickle for real-time prediction
+## 🛠️ Tech Stack
+- **Python** (Pandas, NumPy, Scikit-learn)  
+- **Machine Learning** (Regression / Classification models)  
+- **Streamlit** for web app  
+- **Joblib** for model persistence  
 
-☁️ Easy deployment on Streamlit Cloud
+---
 
-🛠️ Tech Stack
+## 📂 Project Structure
+├── data/                 # Dataset
+├── models/               # Trained ML model + scaler
+├── app.py                # Streamlit app
+├── train_model.py        # Script to train & save model
+├── requirements.txt      # Dependencies
+└── README.md             # Project description
 
-Python (Pandas, NumPy, Scikit-learn)
 
-Machine Learning (Regression / Classification models)
+---
 
-Streamlit for web app
-
-Joblib for model persistence
+## ▶️ Run Locally
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/your-username/student-performance-app.git
+   cd student-performance-app
+2. Install dependencies:
