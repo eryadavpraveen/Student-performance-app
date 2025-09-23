@@ -23,13 +23,13 @@ Built with **Python, Scikit-learn, and Streamlit**, the app allows users to inpu
 
 ---
 
-## 📂 Project Structure
-├── data/                 # Dataset
-├── models/               # Trained ML model + scaler
-├── app.py                # Streamlit app
-├── train_model.py        # Script to train & save model
-├── requirements.txt      # Dependencies
-└── README.md             # Project description
+## 📂 Project Structure-
+├── data/                 # Dataset-
+├── models/               # Trained ML model + scaler-
+├── app.py                # Streamlit app-
+├── train_model.py        # Script to train & save model-
+├── requirements.txt      # Dependencies-
+└── README.md             # Project description-
 
 
 ---
