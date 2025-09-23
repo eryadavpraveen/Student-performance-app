@@ -23,20 +23,3 @@ Built with **Python, Scikit-learn, and Streamlit**, the app allows users to inpu
 
 ---
 
-## 📂 Project Structure<br>
-├── data/                 # Dataset<br>
-├── models/               # Trained ML model + scaler<br>
-├── app.py                # Streamlit app<br>
-├── train_model.py        # Script to train & save model<br>
-├── requirements.txt      # Dependencies<br>
-└── README.md             # Project description<br>
-
-
----
-
-## ▶️ Run Locally
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/your-username/student-performance-app.git
-   cd student-performance-app
-2. Install dependencies:
